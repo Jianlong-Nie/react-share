@@ -191,7 +191,8 @@ function App() {
   
   return (
     <div className="App" style={{height:"100vh",width:"100vw"}}>
-     <iframe src={`https://zhuchuanwu.github.io/common3d/?params=${encodeURIComponent(JSON.stringify(getConfigData()))}`} title={getConfigData().title} height="100%" width="100%" id="frame_full" frameborder="0" scrolling="no" 
+     <iframe src={`https://zhuchuanwu.github.io/common3d/?params=${encodeURIComponent(JSON.stringify(getConfigData()))}`}
+      title={"山东碧海标志服装有限公司"} height="100%" width="100%" id="frame_full" frameborder="0" scrolling="no" 
      onLoad={() => {
       let doc = document.getElementById("iframe").contentWindow.document.getElementsByTagName("body")[0];
       let dom = document.getElementById('IframeInhorBox');
