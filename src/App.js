@@ -184,7 +184,7 @@ function App() {
       })
      
     });
-    document.title  =getConfigData().title;
+    document.title  ="山东碧海标志服装有限公司";
    
   },[]);
   
